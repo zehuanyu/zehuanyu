@@ -1,22 +1,63 @@
 # Hi, I'm Zehuan Yu
 
-I have a background in mechanical engineering, robotics, and data analysis, with hands-on experience in automotive engineering, ROS 2 simulation, Python, C++, SQL, and technical problem solving.
+I have a background in data science, mathematics, robotics, and applied engineering, with hands-on experience in Python, SQL, C++, machine learning, data visualization, ROS 2, and simulation.
 
-My GitHub focuses on practical engineering and data projects, including autonomous vehicle simulation, safety systems, data analysis pipelines, mathematical modeling, and C++ object-oriented programming.
+My GitHub focuses on practical data and engineering projects, including used-car price modeling, autonomous racing simulation, computer vision detection, API-based analytics, biostatistical modeling, and C++ object-oriented programming.
 
 ---
 
 ## Featured Projects
 
-### F1TENTH Autonomous Racing & Safety
+### Used Car Depreciation
 
-A collection of ROS 2 projects built around the F1TENTH simulator, focusing on autonomous racing, safety control, and reproducible simulation setup.
+A machine learning project for analyzing used-car depreciation patterns and estimating resale prices from listing-level vehicle attributes.
 
-- **F1tenth-Race:** LiDAR-based local racing planner with wall following, follow-the-gap, predictive speed control, racing-line biasing, and ML-assisted tuning.
-- **Automatica_Emergency_Braking:** Automatic emergency braking node using LiDAR and odometry data to calculate time-to-collision and trigger braking commands.
-- **F1tenth-Installation-Guide:** Step-by-step setup guide for Ubuntu, WSL2, Docker, ROS 2 Foxy, and the F1TENTH gym simulator.
+This project builds a practical valuation workflow, including data cleaning, exploratory analysis, feature engineering, LightGBM modeling, benchmark comparison, segment-level error analysis, and a Streamlit app for interactive vehicle price estimation.
 
-**Tech Stack:** ROS 2, Python, F1TENTH, LiDAR, Odometry, Ackermann Drive, Docker, Ubuntu
+**Highlights:**
+
+- Cleaned and processed large-scale used-car listing data
+- Engineered depreciation-related features such as vehicle age, mileage transforms, and engine displacement
+- Trained a LightGBM regression model for resale price prediction
+- Benchmarked model performance against simpler baseline models
+- Built a Streamlit app to demonstrate price estimation and depreciation curves
+
+**Tech Stack:** Python, Pandas, LightGBM, Scikit-learn, Streamlit, Matplotlib, Regression Modeling
+
+---
+
+### F1TENTH Race Planner
+
+A ROS 2 autonomous racing simulation project using LiDAR-based local planning in the F1TENTH simulator.
+
+This project combines wall following, follow-the-gap, local trajectory planning, predictive speed control, racing-line biasing, and ML-assisted tuning. It demonstrates how robotics simulation and data-driven parameter tuning can be used to improve autonomous vehicle behavior.
+
+**Highlights:**
+
+- Built a LiDAR-based local racing planner for the F1TENTH simulator
+- Combined wall following, follow-the-gap, and local planning logic
+- Added predictive speed control based on curvature, clearance, braking distance, and steering smoothness
+- Used parameter tuning and ML-assisted adjustment to improve simulated driving performance
+- Organized configs, scripts, models, and test results for reproducible evaluation
+
+**Tech Stack:** ROS 2, Python, F1TENTH, LiDAR, NumPy, YAML, Simulation
+
+---
+
+### YOLOv8 Traffic Sign Detection
+
+A computer vision project for traffic sign detection using YOLOv8 and custom lightweight architecture variants.
+
+This project compares a standard YOLOv8 baseline with attention and feature-fusion extensions such as CBAM, LCFE, IMCMD, and YOLO-TS-style fusion. The goal is to improve small-object traffic sign detection and evaluate model robustness across day and night driving conditions.
+
+**Highlights:**
+
+- Trained and evaluated YOLOv8-based traffic sign detection models
+- Compared baseline, attention-based, and feature-fusion model variants
+- Evaluated mAP, parameter efficiency, and day/night robustness
+- Organized experiment configs, scripts, reports, and result summaries for reproducible analysis
+
+**Tech Stack:** Python, PyTorch, Ultralytics YOLOv8, OpenCV, Object Detection, Computer Vision
 
 ---
 
@@ -36,9 +77,9 @@ A Python data analysis project comparing 2020 and 2021 year-end music trends usi
 
 ---
 
-### BioStatistics: HIV Dynamics Simulation
+### HIV Dynamics Biostatistics Simulation
 
-A Python-based mathematical modeling project that simulates HIV infection dynamics and immune response using ordinary differential equations.
+A Python-based mathematical biology project that simulates HIV infection dynamics and immune response using ordinary differential equations.
 
 **Highlights:**
 
@@ -46,8 +87,9 @@ A Python-based mathematical modeling project that simulates HIV infection dynami
 - Used SciPy ODE solvers for numerical simulation
 - Compared immune response behavior under different parameter settings
 - Visualized CTLp and CTLe trends over time
+- Compiled results into a research report and presentation
 
-**Tech Stack:** Python, NumPy, SciPy, Matplotlib, ODE Modeling
+**Tech Stack:** Python, NumPy, SciPy, Matplotlib, ODE Modeling, Biostatistics
 
 ---
 
@@ -67,14 +109,15 @@ A semester-long C++ programming portfolio covering console applications, games, 
 
 ## Technical Skills
 
-**Programming:** Python, C++, SQL  
-**Robotics & Simulation:** ROS 2, F1TENTH, LiDAR, Odometry, Ackermann Drive, Docker  
-**Data & Analysis:** SQLite, Matplotlib, JSON, API Data Collection, Data Visualization  
-**Engineering:** Automotive Systems, Simulation Testing, Parameter Tuning, Technical Documentation  
-**Tools:** Git, GitHub, Ubuntu, WSL2, Docker, VS Code
+**Programming:** Python, SQL, C++  
+**Data Science & Analytics:** Pandas, Scikit-learn, LightGBM, SQLite, Matplotlib, Streamlit, API Data Collection, Data Cleaning  
+**Machine Learning:** Regression Modeling, Model Evaluation, Feature Engineering, Benchmarking, Error Analysis  
+**Computer Vision:** PyTorch, Ultralytics YOLOv8, OpenCV, Object Detection  
+**Robotics & Simulation:** ROS 2, F1TENTH, LiDAR, Odometry, Ackermann Drive, Simulation  
+**Tools:** Git, GitHub, Ubuntu, WSL2, VS Code
 
 ---
 
 ## Current Focus
 
-I am currently building projects at the intersection of robotics, simulation, automotive engineering, and data analysis. My strongest interests are autonomous vehicle simulation, safety systems, data-driven engineering, and practical software tools for solving real engineering problems.
+I am currently building projects at the intersection of data science, business analytics, machine learning, automotive systems, and robotics simulation. My strongest interests are data analytics, business intelligence, applied machine learning, data-driven engineering, and practical software tools for solving real-world problems.
